@@ -53,19 +53,6 @@ h2 {
   background-color: #777;
 }
 
-
-/* dissimuler la scroolbar horizontal sous chaque liste */
-/*
-.movies-list::-webkit-scrollbar {
-  display: none;
-}
-*/
-
 .container {
   margin: 0 0 40px 50px;
 }
-
-
-/*
-https://www.w3schools.com/howto/howto_css_menu_horizontal_scroll.asp
-*/

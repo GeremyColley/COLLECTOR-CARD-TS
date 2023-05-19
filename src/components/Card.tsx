@@ -1,5 +1,8 @@
 
-
+interface Props {
+    Titre: string;
+    ListMovies: string[];
+}
 
 
 function Card({Titre,ListMovies}: Props): JSX.Element | null {

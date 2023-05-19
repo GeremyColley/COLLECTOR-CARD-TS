@@ -5,11 +5,6 @@ interface Props {
     btnColor: string;
 }
 
-interface Props {
-    Titre: string;
-    ListMovies: string[];
-}
-
 function Cards({btnColor}: Props): JSX.Element | null {
 
     return (
