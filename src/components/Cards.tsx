@@ -10,8 +10,8 @@ function Cards({btnColor}: Props): JSX.Element | null {
     return (
         <div className='cards'>
             <h1>{btnColor} - Alice</h1>
-            {mov.map( (elem) => { return(
-                <Card Titre={elem.category} ListMovies={elem.images} />
+            {mov.map( (elem, index) => { return(
+                <Card Titre={elem.category} ListMovies={elem.images} key={index} />
             )})}
         </div>
     );
